@@ -1,0 +1,83 @@
+body {
+  background-color: ghostwhite;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: wheat;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+  }
+  
+.navbar-brand h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.7em;
+    font-weight: bold;
+  }
+
+#nav-list {
+  background-color: antiquewhite;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/** END HEADER */
+
+/** HOME PAGE **/
+
+#menu-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+}
+
+#Chicken, #Beef, #Sushi {
+  background-color: cornflowerblue;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-shadow: 0 0 10px #a8aca7;
+}
+
+section > h2 {
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+}
+
+section > a {
+  font-weight: bold;
+}
+
+.food-description {
+  padding: 15px;
+  color: black;
+  text-align: justify;
+}
